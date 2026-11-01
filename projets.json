@@ -1,0 +1,33 @@
+{
+  "projets": [
+    {
+      "id": "projet1",
+      "titre": "Refonte d'une identité visuelle",
+      "description_courte": "Création d'un logo, d'une charte graphique et de supports print.",
+      "description": "Description complète du projet.\n\nVous pouvez écrire plusieurs paragraphes : les retours à la ligne sont conservés.\nContexte, objectifs, outils utilisés, résultats…",
+      "tags": ["Design", "Branding"],
+      "couverture": "cover.jpg",
+      "images": [
+        { "fichier": "img1.jpg", "legende": "Premières recherches de logo" },
+        { "fichier": "img2.jpg", "legende": "Déclinaison sur les supports print" },
+        { "fichier": "img3.jpg", "legende": "Charte graphique finale" }
+      ],
+      "pdfs": [
+        { "fichier": "dossier-complet.pdf", "titre": "Dossier complet du projet" },
+        { "fichier": "charte-graphique.pdf", "titre": "Charte graphique" }
+      ]
+    },
+    {
+      "id": "projet2",
+      "titre": "Application mobile de suivi sportif",
+      "description_courte": "Maquettes et prototype d'une application de suivi d'entraînement.",
+      "description": "Description détaillée du deuxième projet.",
+      "tags": ["UX/UI", "Mobile"],
+      "couverture": "cover.jpg",
+      "images": [
+        { "fichier": "ecran-accueil.png", "legende": "Écran d'accueil" }
+      ],
+      "pdfs": []
+    }
+  ]
+}

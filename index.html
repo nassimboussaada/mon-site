@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio – Votre Nom</title>
+  <meta name="description" content="Portfolio de Votre Nom : sélection de projets.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Votre Nom</h1>
+      <p class="site-subtitle">Portfolio · Sélection de projets</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section aria-labelledby="titre-projets">
+      <h2 id="titre-projets" class="section-title">Projets</h2>
+      <div id="grille-projets" class="grille" aria-live="polite">
+        <p class="message">Chargement des projets…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="annee"></span> Votre Nom</p>
+    </div>
+  </footer>
+
+  <!-- Vue détaillée (modale) -->
+  <dialog id="modale" class="modale" aria-labelledby="modale-titre">
+    <article class="modale-contenu">
+      <button type="button" class="modale-fermer" id="modale-fermer" aria-label="Fermer">&times;</button>
+      <h2 id="modale-titre"></h2>
+      <ul id="modale-tags" class="tags"></ul>
+      <p id="modale-description" class="modale-description"></p>
+
+      <section id="modale-galerie-bloc">
+        <h3>Galerie</h3>
+        <div id="modale-galerie" class="galerie"></div>
+      </section>
+
+      <section id="modale-pdfs-bloc">
+        <h3>Documents</h3>
+        <ul id="modale-pdfs" class="liste-pdf"></ul>
+      </section>
+    </article>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
